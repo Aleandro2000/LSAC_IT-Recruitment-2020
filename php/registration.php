@@ -1,4 +1,3 @@
-<!--PHP login System by WEBDEVTRICK (https://webdevtrick.com) -->
 <html>
 <head>
 <meta charset="utf-8">
