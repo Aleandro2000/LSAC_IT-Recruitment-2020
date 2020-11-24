@@ -1,0 +1,104 @@
+@font-face {
+    font-family: brandogrotesque;
+    src: url("../Resources/Fonts/BrandonGrotesque-Bold.ttf");
+}
+.open-button {
+    border: 3px solid #263238;
+    cursor: pointer;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    z-index: 3;
+}
+.active
+{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #4CAF50;
+    position: fixed;
+    bottom: 23px;
+    right: 32px;
+    z-index: 3;
+}
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    right: 15px;
+    font-family: brandogrotesque;
+    background-color: white;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    z-index: 9;
+}
+  
+  /* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container, textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container, textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container, .btn {
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a background color to the cancel button */
+.form-container, .cancel {
+  background-color: #263238;
+  border-radius: 100px;
+}
+
+/* Add some hover effects to buttons */
+.form-container, .btn:hover, .open-button:hover {
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+.robot-input
+{
+  color: gray;
+  border: 1px solid #263238;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
+  resize: none;
+  margin-top: 18px;
+  padding: 5px;
+}
+@media only screen and (max-width: 260px)
+{
+    .open-button, .active, .chat-popup
+    {
+        display: none;
+    }
+}
