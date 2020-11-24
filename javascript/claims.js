@@ -2,7 +2,7 @@ var area=[],title=[];
 function claims()
 {
     let texttitle=document.getElementById("title").value,textarea=document.getElementById("area").value,element;
-    if(!title.values&&area.values!="Alege materia")
+    if(texttitle&&textarea!='Alege materia')
     {
         console.log(texttitle);
         area.push(textarea);

@@ -126,4 +126,8 @@ select
     {
         width: 75%;
     }
+    .modal
+    {
+      padding-top: 5px;
+    }
 }
