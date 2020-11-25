@@ -20,5 +20,5 @@ function claims()
         document.getElementById("reports").innerHTML=element;
     }
     else
-        alert("Date nevalide: ("+texttitle+","+textarea+")!");
+        alert("Date nevalide!");
 }
