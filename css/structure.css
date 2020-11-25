@@ -403,6 +403,10 @@ a
         padding-right: 0;
         padding-left: 0;
     }
+    .presentation
+    {
+        margin-top: 153px;
+    }
     .presentation-button
     {
         margin-left: 0;
