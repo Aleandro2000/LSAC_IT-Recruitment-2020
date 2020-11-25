@@ -30,7 +30,8 @@ function robot()
 		["go on", "continue"],
 		["give up", "let me down", "let you down", "let the developer down", "let developer down", "let god down"],
 		["no"],
-		["are you loial" ,"you are loial"]
+		["are you loial" ,"you are loial"],
+		["how may i do homework","how can i do homework","how may i buy homework","how may i do homework for someone else","i want to buy homework","i want to do homework","i want to do my homework","i want to copy homework","i want homework","homework"]
 	];
     var reply = [
         ["Hi","Hey","Hello"],
@@ -53,7 +54,8 @@ function robot()
 		["Ok!", "Ok! I do.", "Ok! I'll do.", "Ok ok okk, don't cry!"],
 		["No! I don't.", "No!", "I don't betray!"],
 		["Why not?"],
-		["Yes! I am."]
+		["Yes! I am."],
+		["Create or login account on this site and have a nice copying or doing homework!"]
 	];
     var alternative = ["Write loudly!", "I don't understand!", "I'm only a simple chatbot!", "I understood the question, but I may not answer.", "I try to process!"];
     document.querySelector("#input").addEventListener("keypress", function(e){

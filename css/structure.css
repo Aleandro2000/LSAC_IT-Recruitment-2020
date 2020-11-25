@@ -272,7 +272,8 @@ a
 	position: relative;
 	top: 25%;
 	width: 100%;
-	text-align: left;
+    text-align: center;
+    justify-content: center;
 }
 .overlay .mobile-ref
 {
@@ -289,6 +290,10 @@ a
 	color: white;
 	top: 20px;
 	font-size: 60px;
+}
+.closebtn
+{
+    right: 30px;
 }
 
 /*special CSS definitions*/
