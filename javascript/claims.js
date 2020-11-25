@@ -1,4 +1,11 @@
 var area=[],title=[];
+function select_option()
+{
+    const subjects=["Alege materia","PC","USO","SDA/SD","POO","ASC","Mate1","Mate2","Mate3","Chimie","GMD","EGC","Licenta","Scoala vietii","MN","IRA"]
+    var select=document.getElementById("area");
+    for(index in subjects)
+        select.options[select.options.length]=new Option(subjects[index], index);
+}
 function claims()
 {
     let texttitle=document.getElementById("title").value,textarea=document.getElementById("area").value,element;
