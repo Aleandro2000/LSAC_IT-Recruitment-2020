@@ -4,7 +4,7 @@ function select_option()
     const subjects=["Alege materia","PC","USO","SDA/SD","POO","ASC","Mate1","Mate2","Mate3","Chimie","GMD","EGC","Licenta","Scoala vietii","MN","IRA"]
     var select=document.getElementById("area");
     for(index in subjects)
-        select.options[select.options.length]=new Option(subjects[index], index);
+        select.options[select.options.length]=new Option(subjects[index], subjects[index]);
 }
 function claims()
 {
@@ -20,5 +20,5 @@ function claims()
         document.getElementById("reports").innerHTML=element;
     }
     else
-        alert("Date nevalide!");
+        alert("Date nevalide: ("+texttitle+","+textarea+")!");
 }
