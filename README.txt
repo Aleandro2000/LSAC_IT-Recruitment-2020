@@ -1,5 +1,5 @@
 Realizat de Carmici Alexandru-Andrei.
-Idei de imbunatatire suplimentare, pe langa cele principale, la acest proiect au mai fost realizate: robotul site-ului, sistem de login, register si dashboard in php, MySQL.
+Idei de imbunatatire suplimentare, pe langa cele principale, la acest proiect au mai fost realizate: robotul site-ului, sistem de login, register, dashboard in php, MySQL, si formular de contact implementat conceptual in Javascript.
 
 Baza de date creata din linia de comanda la care se conecteaza se numeste register, iar tabelul in care se pastreaza datele user-ilor se numeste users, fiind creat din linie de comanda astfel:
 	
