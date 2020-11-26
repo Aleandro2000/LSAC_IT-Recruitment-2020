@@ -1,10 +1,15 @@
 var area=[],title=[];
-function select_option(data)
+function select_option(json)
 {
-    var subjects=JSON.parse(data);
-    var select=document.getElementById("area");
-    for(index in subjects)
-        select.options[select.options.length]=new Option(subjects[index].area, subjects[index].area);
+    if(json)
+    {
+        var subjects=JSON.parse(json.responseText);
+        var select=document.getElementById("area");
+        for(index in subjects)
+            select.options[select.options.length]=new Option(subjects[index].area, subjects[index].area);
+    }
+    else
+        console.log(json);
 }
 function claims()
 {
