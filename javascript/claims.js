@@ -1,10 +1,10 @@
 var area=[],title=[];
-function select_option()
+function select_option(data)
 {
-    const subjects=["Alege materia","PC","USO","SDA/SD","POO","ASC","Mate1","Mate2","Mate3","Chimie","GMD","EGC","Licenta","Scoala vietii","MN","IRA"]
+    var subjects=JSON.parse(data);
     var select=document.getElementById("area");
     for(index in subjects)
-        select.options[select.options.length]=new Option(subjects[index], subjects[index]);
+        select.options[select.options.length]=new Option(subjects[index].area, subjects[index].area);
 }
 function claims()
 {

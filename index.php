@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./css/robot.css">
         <link rel="stylesheet" href="./css/modal.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="./data/subjects.js"></script>
         <script type="text/javascript" src="./javascript/scripts.js"></script>
         <script type="text/javascript" src="./javascript/robot.js"></script>
         <script type="text/javascript" src="./javascript/claims.js"></script>
@@ -222,7 +223,7 @@
         <script type="text/javascript">
             robot();
             modal();
-            select_option();
+            select_option(subjects);
         </script>
     </body>
 </html>
