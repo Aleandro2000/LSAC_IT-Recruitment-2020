@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -15,7 +17,7 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: white;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -60,17 +62,15 @@
 }
 
 .modal-header {
+  font-family: 'Merriweather';
   padding: 2px 16px;
   background-color: #92E3A9;
   color: #263238;
 }
 
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
+.modal-body {
+  font-family: 'Roboto';
   padding: 2px 16px;
-  background-color: #92E3A9;
-  color: #263238;
 }
 
 .modal-input

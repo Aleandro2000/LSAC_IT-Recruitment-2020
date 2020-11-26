@@ -212,7 +212,7 @@
                     </button>
                 </center>
               </div>
-              <div class="modal-footer">
+              <div class="modal-header">
                 <h3>Plângeri introduse până acum.</h3>
               </div>
               <div class="modal-body" id="reports"></div>
