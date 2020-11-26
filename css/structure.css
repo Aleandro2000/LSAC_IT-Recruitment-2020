@@ -395,6 +395,10 @@ a
         width: 90%;
         padding: 10px;
     }
+    .form-text-padding
+    {
+        padding-right: 0;
+    }
     .form-row
     {
         content: "";
