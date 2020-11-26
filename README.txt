@@ -14,3 +14,4 @@ CREATE TABLE `users` (
 
 Limbaje in care au fost realizate task-urile: HTML, Vanila CSS, Vanila Javascript, Vanila PHP.
 Tool-uri folosite: xampp.
+Cursurile se gasesc in "data/subjects.json".
